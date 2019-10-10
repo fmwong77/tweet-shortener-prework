@@ -23,7 +23,7 @@ def word_substituter(tweet)
   i = 0
   
   while i < array.size
-    if dictionary.key?(array[i].to_s)
+    if dictionary.key?(array[i].to_s.downcase)
       array[i] = dictionary[array[i].to_s]
     end
     i += 1
