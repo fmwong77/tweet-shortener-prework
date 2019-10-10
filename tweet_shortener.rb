@@ -21,11 +21,16 @@ def word_substituter(tweet)
   dictionary = {}
   dictionary = dictionary()
   i = 0
+  
   while i < array.size
-    array[i] = dictionary.key(x)
+    if dictionary.key?(array[i].to_s)
+      array[i] = dictionary[array[i].to_s]
+    end
     i += 1
   end
   
-  array.join(", ")
+  array.join(" ")
 end
+
+
 
