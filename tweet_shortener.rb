@@ -15,6 +15,13 @@ def dictionary()
 end
 
 def word_substituter(tweet)
-  tweet.
+  array = []
+  array = tweet.split(" ")
+  
+  dictionary = {}
+  dictionary = dictionary()
+  array.each do |x|
+    dictionary.key
+  end
 end
 
