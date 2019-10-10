@@ -32,5 +32,9 @@ def word_substituter(tweet)
   array.join(" ")
 end
 
-
-
+def bulk_tweet_shortener(tweet_array)
+  i = 0
+  while i < tweet_array.size
+    i += 1
+  end
+end
