@@ -21,7 +21,7 @@ def word_substituter(tweet)
   dictionary = {}
   dictionary = dictionary()
   array.each do |x|
-    dictionary.key
+    dictionary.key(x)
   end
 end
 
