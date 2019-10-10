@@ -1,16 +1,16 @@
 # Write your code here.
 def dictionary()
   hash = {
-    hi: "hello",
-    2: "to",
-    2: "two",
-    2: "too",
-    4: "for",
-    4: "four",
-    b: "be",
-    u: "you",
-    @: "at",
-    &: "and"
+    "hello" => "hi",
+    "to" => "2",
+    "two" => "2",
+    "too" => "2",
+    "for" => "4",
+    "four" => "4",
+    "be" => "b",
+    "you" => "u",
+    "at" => "@",
+    "and" => "&"
   }
 end
 
